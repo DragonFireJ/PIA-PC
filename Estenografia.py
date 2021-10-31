@@ -72,6 +72,6 @@ def ocultar_texto(msj, ruta, salida):
         print("Mensaje escrito correctamente")
     else:
         sobra = math.floor((long - cont) / 8)
-        print(f"Advertencia: no se pudo escribir todo el mensaje, sobraron {sobra} caracteres")
+        print(f"""Advertencia: no se pudo escribir todo el mensaje,
+sobraron {sobra} caracteres""")
     imag.save(salida)
-

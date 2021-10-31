@@ -16,7 +16,7 @@ parser.add_argument("-msj", dest="msj")
 parser.add_argument("-ip", dest="ip")
 params = parser.parse_args()
 
-logging.basicConfig(level = logging.INFO, filename = 'erroresPIA.log')
+logging.basicConfig(level=logging.INFO, filename='erroresPIA.log')
 
 try:
     if params.ip is not None:
@@ -35,5 +35,7 @@ except IOError as e:
     logging.error("Ha ocurrido un error: " + str(e))
     print("Ha ocurrido un error: " + str(e))
 except KeyError as e:
-    logging.error("Ha ocurrido un error, al encontar una llave (Puede que su clave API este mal): " + str(e))
-    print("Ha ocurrido un error, al encontar una llave (Puede que su clave API este mal): " + str(e))
+    mensaje1 = "Ha ocurrido un error, al encontar una llave "
+    mensaje2 = "(Puede que su clave API este mal): "
+    logging.error(mensaje1 + mensaje2 + str(e))
+    print(mensaje1 + mensaje2 + str(e))
