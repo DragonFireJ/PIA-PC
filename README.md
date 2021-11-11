@@ -330,6 +330,12 @@ Este proyecto está bajo la Licencia del equipo conformado por Jairo Santana Gar
 
 * Gracias a la profesora Perla por las clases impartidas 📢
 * Gracias al apoyo del profesor Osvaldo para la solucion de algunos detalles menores. 
-* Gracias a las paginas de las cuales tomamos referencias como [Parzibytes's blog](https://parzibyte.me/blog/)
+* Gracias a las paginas de las cuales tomamos referencias como:
+  - [Parzibytes's blog](https://parzibyte.me/blog/)
+  - [Uniwebsidad](https://uniwebsidad.com/)
+  - [Cryptography](https://cryptography.io/en/latest/fernet/)
+  - [PyPI](https://pypi.org/project/pynput/)
+  - [Python-Bloggers](https://python-bloggers.com/)
+  - [Python](https://docs.python.org/3/library/smtplib.html)
 ---
 ⌨️ con ❤️ por [Villanuevand](https://github.com/Villanuevand) 😊
