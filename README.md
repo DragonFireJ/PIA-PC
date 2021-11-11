@@ -320,8 +320,6 @@ _Equipo conformado por:_
 * **Jose Pablo Perez Hernandez** -  [Nadrod](https://github.com/nadrod)
 * **Luís Roberto Díaz Pineda** -  [R0bert0DP](https://github.com/R0bert0DP)
 
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
-
 ## Licencia 📄
 
 Este proyecto está bajo la Licencia del equipo conformado por Jairo Santana García, Pablo de Jesus García Medina, Jose Pablo Perez Hernandez y Luís Roberto Díaz Pineda
