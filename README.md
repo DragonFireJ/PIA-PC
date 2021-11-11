@@ -34,9 +34,8 @@ _Descarga todos los archivos y colocalos en una carpeta_
 
 _Ahora instala los modulos necesario_
 
-
+Abre la terminal de tu pc y escribe:
 ```
-Abre la terminal de tu pc y escribe
 -pip install -r requirements.txt
 ```
 
@@ -108,15 +107,17 @@ _Este script funciona con argparse, por lo que tendras que pasar los argumentos_
   ```
    -img
    
-      Se pondra la flag seguida de la ruta o bien el nombre de la imagen (si se encuentra en el mismo directorio) a la que 
-      se le quiere añadir un mensaje oculto o bien la que contiene el mensaje oculto (Si se quiere desencriptar).
+      Se pondra la flag seguida de la ruta o bien el nombre de la imagen (si se encuentra en 
+      el mismo directorio) a la que se le quiere añadir un mensaje oculto o bien la que contiene 
+      el mensaje oculto (Si se quiere desencriptar).
       
       -img 'C:\Users\Documents\Ejemplo.jpg'
     
     -reimg
     
-      Se pondra la flag seguida del nombre o ruta de la imagen que tendra como resultado la imagen con el mensaje encriptado,
-      recuerda usar la extension ".png". Puede ser opcional pues viene con un valor default que es "Salida.png".
+      Se pondra la flag seguida del nombre o ruta de la imagen que tendra como resultado la 
+      imagen con el mensaje encriptado, recuerda usar la extension ".png". Puede ser opcional 
+      pues viene con un valor default que es "Salida.png".
       
       -reimg 'Salida.png'
     
@@ -151,15 +152,16 @@ _Este script funciona con argparse, por lo que tendras que pasar los argumentos_
     
     -mail
     
-      Se pondra la flag seguida del correo electronico que se estara usando para enviar el correo con el reporte del keylogger 
-      ademas tambien servira para recibir este reporte. Recuerda que tiene que ser una cuenta de Gmail
+      Se pondra la flag seguida del correo electronico que se estara usando para enviar el correo con 
+      el reporte del keylogger ademas tambien servira para recibir este reporte. Recuerda que tiene 
+      que ser una cuenta de Gmail
       
       -mail 'ejemplo@gmail.com'
     
     -pwd
     
-      Se pondra la flag seguida por la contraseña del correo electronico que se usara para enviar y recibir el reporte. 
-      Recuerda que tiene que ser una cuenta de Gmail.
+      Se pondra la flag seguida por la contraseña del correo electronico que se usara para enviar y 
+      recibir el reporte. Recuerda que tiene que ser una cuenta de Gmail.
       
       -pwd 'Password1'
     
@@ -182,15 +184,17 @@ _Este script funciona con argparse, por lo que tendras que pasar los argumentos_
     
     -rescop
     
-      Se pondra la flag seguida de la ruta donde se guaradaran los archivos (Backup) de la memoria usb, es opcional si 
-      la copia se quiere guardar en el directorio donde esta el script, puesto que la guara en el directorio actual.
+      Se pondra la flag seguida de la ruta donde se guaradaran los archivos (Backup) de la memoria 
+      usb, es opcional si la copia se quiere guardar en el directorio donde esta el script, 
+      puesto que la guara en el directorio actual.
       
       -rescop 'C:\Users\Documents'
     
     -temcop
     
-      Se pondra la flag seguida de una direccion donde se ejecutara temporalmente el comando, esta flag puede ser opcional
-      pues tiene un valor por default y es practicamente indifirente se haga esta ejecucion temporal
+      Se pondra la flag seguida de una direccion donde se ejecutara temporalmente el comando, 
+      esta flag puede ser opcional pues tiene un valor por default y es practicamente 
+      indifirente se haga esta ejecucion temporal
       
       -temcop 'C:\Users\Documents\tmp'
     
@@ -229,15 +233,17 @@ _Este script funciona con argparse, por lo que tendras que pasar los argumentos_
   ```
    -resc
    
-      Se pondra la flag seguida de la carpeta que esta infectada con Ransomware (Generado por este programa), que se quiera rescatar
+      Se pondra la flag seguida de la carpeta que esta infectada con Ransomware (Generado por 
+      este programa), que se quiera rescatar.
       
       -resc 'C:\Users\Documents'
     
     -resckey
     
-      Se pondra la flag seguida de la ruta donde esta el archivo key.key para desencriptar la carpeta, este sera ocpional si
-      la carpeta se encuentra dentro de la misma carpeta de ejecucion del script. Si se ejecuta en pruebas, y el archivo key.key
-      se encuentra en pruebas no sera necesaria la flag, pues la buscara en el directorio actual
+      Se pondra la flag seguida de la ruta donde esta el archivo key.key para desencriptar la carpeta, 
+      este sera ocpional si la carpeta se encuentra dentro de la misma carpeta de ejecucion del script. 
+      Si se ejecuta en pruebas, y el archivo key.key se encuentra en pruebas no sera necesaria la flag, 
+      pues la buscara en el directorio actual.
       
       -reskey 'C:\Users\Documents\key.key'
     
