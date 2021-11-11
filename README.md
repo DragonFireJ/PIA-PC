@@ -28,7 +28,7 @@ _Descarga todos los archivos y colocalos en una carpeta_
 
 -Da click en code
 
--Da click en donwload zip
+-Da click en download zip
 
 -Descomprome el archivo en una carpeta
 
@@ -98,6 +98,10 @@ _Este script funciona con argparse, por lo que tendras que pasar los argumentos_
     ```
     python Menu.py -api 'ABCDEFGHI000000000000' -type 1
     ```
+   - Notas:
+  
+     En el archivo urls_sospechosas.txt deben poner las URL's que se quieren analizar (Como el ejemplo del repositorio)
+
 * Estenografia
   - Flags para hacer uso de estenografia
   ```
