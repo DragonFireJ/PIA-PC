@@ -1,17 +1,20 @@
 from PIL import Image
 
 
-# noinspection PyBroadException
+
 def leer(image_path):
+    # Definimos como termina la cadena
     terminacion = "11111111"
-    # noinspection PyBroadException
+    # Abrimos la imagen
     imag = Image.open(image_path)
     pix = imag.load()
 
+    # Obtenemos el tamaño de la imagen
     tam = imag.size
     anch = tam[0]
     alt = tam[1]
 
+    # Inicializamos las variables que necesitaremos
     byte = ""
     mensaje = ""
 
@@ -23,6 +26,7 @@ def leer(image_path):
             green = pixel[1]
             blue = pixel[2]
 
+            # Empezamosa  buscar el mensaje
             byte += (bin(red)[2:].zfill(8))[-1]
             if len(byte) >= 8:
                 if byte == terminacion:

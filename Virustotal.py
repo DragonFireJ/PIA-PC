@@ -37,9 +37,9 @@ def Virustotal(api, tipo, txt):
                 for lin in linea:
                     if lin != '':
                         if tipo == 0 or tipo == 1:
-                            # Si no cuenta con API premium le damos un valor
+                            # Si no cuenta con API premium le damos unos valores
                             # Para que espere 1 min el programa y pueda leer 4
-                            # solicitudes mas, ya que el limite es 4 por min.
+                            # solicitudes mas, ya que el limite es 4 por minuto
                             if flag and tipo == 0:
                                 print("""Como se estan realizando mas de 4
 solicitudes esperaremos un minuto para poder continuar""")

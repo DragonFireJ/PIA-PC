@@ -1,0 +1,6 @@
+requests==2.25.1
+openpyxl==3.0.6
+virustotal_api==1.1.11
+pynput==1.7.4
+cryptography==3.4.8
+Pillow==8.4.0
