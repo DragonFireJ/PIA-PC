@@ -263,7 +263,7 @@ _Este script funciona con argparse, por lo que tendras que pasar los argumentos_
       
       -tarces 'C:\Users\Documents\cesar.txt'
     
-    -clabe
+    -clave
     
       Se pondra la flag seguida de el numero que se desea desplazar a la hora de usar Caesar.
       
@@ -289,7 +289,7 @@ _Este script funciona con argparse, por lo que tendras que pasar los argumentos_
       
       -tarces 'C:\Users\Documents\cesar.txt'
     
-    -clabe
+    -clave
     
       Se pondra la flag seguida de el numero que se desea desplazar a la hora de usar Caesar.
       
