@@ -44,6 +44,7 @@ _Ya estas listo para usarlo_
 ## ¿Como usarlo? ⚙️
 
 _Este script funciona con argparse, por lo que tendras que pasar los argumentos_
+_Nota: Si se corre desde linea de comandos, cambiar comillas simples por dobles_
 
 * Analisis de puertos
   - Flags para el analisis de puertos
