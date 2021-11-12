@@ -1,0 +1,23 @@
+ERROR:root:Ha ocurrido un error: [Errno 11001] getaddrinfo failed
+ERROR:pynput.keyboard.Listener:Unhandled exception in listener callback
+Traceback (most recent call last):
+  File "C:\Users\jairo\AppData\Local\Programs\Python\Python39\lib\site-packages\pynput\_util\__init__.py", line 211, in inner
+    return f(self, *args, **kwargs)
+  File "C:\Users\jairo\AppData\Local\Programs\Python\Python39\lib\site-packages\pynput\keyboard\_win32.py", line 284, in _process
+    self.on_press(key)
+  File "C:\Users\jairo\AppData\Local\Programs\Python\Python39\lib\site-packages\pynput\_util\__init__.py", line 127, in inner
+    if f(*args) is False:
+  File "C:\Users\jairo\Documents\JAIRO\UANL\3er semestre\PC\PIA\PIA-PC\keylogger_Completo.py", line 35, in key_recorder
+    enviar_email(file_name, email, password)
+  File "C:\Users\jairo\Documents\JAIRO\UANL\3er semestre\PC\PIA\PIA-PC\keylogger_Completo.py", line 61, in enviar_email
+    server.login(msg['From'], password)
+  File "C:\Users\jairo\AppData\Local\Programs\Python\Python39\lib\smtplib.py", line 734, in login
+    raise last_exception
+  File "C:\Users\jairo\AppData\Local\Programs\Python\Python39\lib\smtplib.py", line 723, in login
+    (code, resp) = self.auth(
+  File "C:\Users\jairo\AppData\Local\Programs\Python\Python39\lib\smtplib.py", line 646, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials u136sm1366511oie.13 - gsmtp')
+ERROR:root:Ha ocurrido un error: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials u136sm1366511oie.13 - gsmtp')
+ERROR:root:Ha ocurrido un error: [Errno 13] Permission denied: 'C:\\Users\\jairo\\Documents\\JAIRO\\UANL\\3er semestre\\PC\\PIA\\PIA-PC\\Usb_copy\\System Volume Information'
+ERROR:root:Ha ocurrido un error: [Errno 13] Permission denied: 'C:\\Users\\jairo\\Documents\\JAIRO\\UANL\\3er semestre\\PC\\PIA\\PIA-PC\\Usb_copy\\System Volume Information'

@@ -13,6 +13,7 @@ from cifrado import encriptar_txt, desencriptar_txt
 
 
 ayuda = r"""Modo de uso:
+NOTA: Cambiar comillas simples por dobles si se ejecuta desde linea de comandos
 -------------------------------------------------Analisis de puertos-------------------------------------------------
 python Menu.py -porti 'Selecciona el puerto donde comenzara a buscar' (Puedes omitirlo tiene valores Default)
 python Menu.py -porti 0
@@ -53,7 +54,7 @@ python Menu.py -klogger 3600 -mail 'ejemplo@gmail.com' -pwd 'Password1'
 -------------------------------------------------------USB-COPY-------------------------------------------------------
 python Menu.py -usb 'Ponga A para activar este modo'
 python Menu.py -usb A
-python Menu.py -rescop 'Ruta donde se quiere guardar la copia o backup'
+python Menu.py -rescop 'Ruta donde se quiere guardar la copia o backup' (Viene por Default el dir. actual)
 python Menu.py -rescop 'C:\Users\Documents'
 python Menu.py -temcop 'Ruta donde se ejecutara temporalmente (Viene por Default)'
 python Menu.py -temcop 'C:\Users\Documents\tmp'
